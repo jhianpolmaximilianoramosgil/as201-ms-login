@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    #url: ${DB_URL_LOGIN}/dbuser
+    #username: ${DB_USERNAME}
+    #password: ${DB_PASSWORD}
+    url: jdbc:postgresql://104.154.162.191/dbuser
+    username: postgres
+    password: '*\PHd-D0c.|"u(ZI'
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+server:
+  port: 8090
